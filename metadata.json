@@ -1,0 +1,6 @@
+{
+  "name": "Ironwheel Motor Works",
+  "description": "Premium motorcycle service and repair workshop in Chennai, Tamil Nadu. Precision service, transparent diagnostics, certified technicians, and multi-brand maintenance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

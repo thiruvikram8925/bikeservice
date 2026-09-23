@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-heading {
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.font-body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* Subtle industrial grid and texture cues */
+.bg-workshop-grid {
+  background-image: radial-gradient(rgba(140, 147, 160, 0.12) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.bg-steel-stripes {
+  background: repeating-linear-gradient(
+    -45deg,
+    rgba(230, 81, 0, 0.08),
+    rgba(230, 81, 0, 0.08) 12px,
+    transparent 12px,
+    transparent 24px
+  );
+}
+
+/* Custom scrollbar for mechanical feel */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #121316;
+}
+::-webkit-scrollbar-thumb {
+  background: #2B303C;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #E65100;
+}
